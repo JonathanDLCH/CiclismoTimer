@@ -1,0 +1,42 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #2a004e;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+}
+
+main aside{
+    background: url("../img/biker.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 40%;
+}
+
+main section{
+    padding: 20px;
+    width: 60%;
+}
+
+table >*{
+    color: antiquewhite;
+}
+
+ul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    justify-content: space-between;
+    color: #f9af3d;
+}
+
+ul a{
+    text-decoration: none;
+    color: #f9af3d;
+}
